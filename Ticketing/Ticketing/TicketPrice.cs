@@ -69,7 +69,7 @@ namespace Ticketing
          if (discount)
          { mPrice -= mdecDiscount; }
 
-         AmountDue = mPrice * quantity;
+         AmountDue = mPrice * quantity * 0.9m;
 
      }
     }
